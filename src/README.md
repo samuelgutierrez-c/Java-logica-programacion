@@ -18,3 +18,14 @@ Este proyecto contiene ejemplos prácticos de los principales temas de lógica d
 1. Compilar todas las clases:
    ```bash
    javac src/main/java/com/example/*.java
+
+# Actividad 3 – Implementación de Clases Java (Getters y Setters)
+
+## Archivos
+- `Product.java`: Clase con atributos, getters, setters, validaciones y `toString()`.
+- `Main.java`: Clase de prueba que crea objetos y demuestra el uso de getters/setters.
+
+## Compilación
+```bash
+javac src/Actividad3/Product.java src/Actividad3/Main.java
+
