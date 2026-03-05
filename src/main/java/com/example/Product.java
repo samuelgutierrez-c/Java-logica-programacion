@@ -1,4 +1,4 @@
-package Actividad3;
+package com.example;
 
 public class Product {
     private String id;
@@ -10,8 +10,8 @@ public class Product {
     public Product(String id, String name, double price, int stock) {
         this.id = id;
         this.name = name;
-        setPrice(price);   // validación
-        setStock(stock);   // validación
+        setPrice(price);
+        setStock(stock);
     }
 
     // Getters
@@ -24,24 +24,18 @@ public class Product {
     public void setId(String id) { this.id = id; }
     public void setName(String name) { this.name = name; }
     public void setPrice(double price) {
-        if (price >= 0) {
-            this.price = price;
-        } else {
-            System.out.println("El precio no puede ser negativo.");
-        }
+        if (price >= 0) this.price = price;
+        else System.out.println("El precio no puede ser negativo.");
     }
     public void setStock(int stock) {
-        if (stock >= 0) {
-            this.stock = stock;
-        } else {
-            System.out.println("El stock no puede ser negativo.");
-        }
+        if (stock >= 0) this.stock = stock;
+        else System.out.println("El stock no puede ser negativo.");
     }
 
-    // toString
     @Override
     public String toString() {
         return "Producto [ID: " + id + ", Nombre: " + name +
                ", Precio: " + price + ", Stock: " + stock + "]";
     }
 }
+
