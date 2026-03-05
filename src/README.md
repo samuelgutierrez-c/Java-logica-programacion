@@ -27,5 +27,6 @@ Este proyecto contiene ejemplos prácticos de los principales temas de lógica d
 
 ## Compilación
 ```bash
-javac src/Actividad3/Product.java src/Actividad3/Main.java
+javac javac src/main/java/com/example/Product.java src/main/java/com/example/Main.java
+
 
