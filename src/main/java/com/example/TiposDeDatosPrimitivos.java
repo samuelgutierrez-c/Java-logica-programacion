@@ -1,3 +1,5 @@
+package com.example;
+
 public class TiposDeDatosPrimitivos {
     public static void mostrarEjemplos() {
         byte b = 100;

@@ -1,3 +1,5 @@
+package com.example;
+
 public class ConversionDeTipos {
     public static void mostrarEjemplos() {
         int numero = 10;

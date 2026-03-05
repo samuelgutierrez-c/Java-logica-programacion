@@ -1,3 +1,5 @@
+package com.example;
+
 public class VariablesYConstantes {
     public static void mostrarEjemplos() {
         int edad = 20;

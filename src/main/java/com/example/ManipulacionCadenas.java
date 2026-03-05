@@ -1,3 +1,5 @@
+package com.example;
+
 public class ManipulacionCadenas {
     public static void mostrarEjemplos() {
         String texto = "Hola Mundo";

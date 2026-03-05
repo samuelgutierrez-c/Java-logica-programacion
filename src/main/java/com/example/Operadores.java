@@ -1,3 +1,5 @@
+package com.example;
+
 public class Operadores {
     public static void mostrarEjemplos() {
         int a = 10, b = 5;

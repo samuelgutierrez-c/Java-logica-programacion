@@ -1,3 +1,5 @@
+package com.example;
+
 public class EstructurasCondicionales {
     public static void mostrarEjemplos() {
         int edad = 18;

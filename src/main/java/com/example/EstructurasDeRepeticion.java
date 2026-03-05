@@ -1,3 +1,5 @@
+package com.example;
+
 public class EstructurasDeRepeticion {
     public static void mostrarEjemplos() {
         for (int i = 1; i <= 5; i++) {
