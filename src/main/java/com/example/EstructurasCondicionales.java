@@ -1,4 +1,4 @@
-public class EstructuraCondicionales {
+public class EstructurasCondicionales {
     public static void mostrarEjemplos() {
         int edad = 18;
         if (edad >= 18) {

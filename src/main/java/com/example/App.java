@@ -9,7 +9,7 @@ public class App {
         ConversionDeTipos.mostrarEjemplos();
         Operadores.mostrarEjemplos();
         EntradaDeDatos.mostrarEjemplos();
-        EstructuraCondicionales.mostrarEjemplos();
+        EstructurasCondicionales.mostrarEjemplos();
         EstructurasDeRepeticion.mostrarEjemplos();
         MetodosEstaticosSimples.mostrarEjemplo();
         ArreglosUnidimensionales.mostrarEjemplos();
