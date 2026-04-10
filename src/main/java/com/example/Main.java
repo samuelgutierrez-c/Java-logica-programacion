@@ -1,8 +1,10 @@
 package com.example;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
-        // ----- Product -----
+        // ----- Actividad 3: Product -----
         Product p1 = new Product("P001", "Laptop", 1200.0, 50);
         Product p2 = new Product("P002", "Mouse", 25.5, 200);
 
@@ -18,7 +20,7 @@ public class Main {
         System.out.println(p1);
         System.out.println(p2);
 
-        // ----- Libro -----
+        // ----- Actividad 4: Libro -----
         Libro libro1 = new Libro();
         Libro libro2 = new Libro("Cien años de soledad", "Gabriel García Márquez");
         Libro libro3 = new Libro("El Principito", "Antoine de Saint-Exupéry", 120);
@@ -27,18 +29,32 @@ public class Main {
         libro2.mostrarDetalles();
         libro3.mostrarDetalles();
 
-        // ----- CuentaBancaria -----
+        // ----- Actividad 4: CuentaBancaria -----
         CuentaBancaria cuenta = new CuentaBancaria("Samuel", 500);
         cuenta.depositar(200);
         cuenta.retirar(100);
         cuenta.retirar(700); // error esperado
 
-        // ----- Estudiante -----
+        // ----- Actividad 4: Estudiante -----
         Estudiante est1 = new Estudiante("Laura", 20, 4.2);
         Estudiante est2 = new Estudiante("Carlos", -5, 2.8);
 
         est1.mostrarInfo();
         est2.mostrarInfo();
+
+        // ----- Actividad 5: Interfaces -----
+        ArrayList<EspacioCultural> espacios = new ArrayList<>();
+        espacios.add(new JardinBotanico());
+        espacios.add(new MuseoDeAntioquia());
+        espacios.add(new ParqueExplora());
+
+        System.out.println("\n=== Actividad 5: Interfaces en Java ===");
+        for (EspacioCultural espacio : espacios) {
+            System.out.println("Lugar: " + espacio.getClass().getSimpleName());
+            espacio.mostrarHorario();
+            System.out.println("Requisito: " + espacio.obtenerRequisitoEntrada());
+            espacio.realizarActividadPrincipal();
+            System.out.println("----------------------------");
+        }
     }
 }
-
