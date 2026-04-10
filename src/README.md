@@ -29,4 +29,11 @@ Este proyecto contiene ejemplos prácticos de los principales temas de lógica d
 ```bash
 javac javac src/main/java/com/example/Product.java src/main/java/com/example/Main.java
 
+# Actividad 4 – Clases con Constructores, Encapsulamiento y Validaciones
+
+## Archivos
+
+- Libro.java: Clase con sobrecarga de constructores y método mostrarDetalles().
+- CuentaBancaria.java: Clase con encapsulamiento, validaciones en depósitos/retiros.
+- Estudiante.java: Clase con validación en setEdad, método haAprobado() y mostrarInfo().
 
